@@ -17,7 +17,8 @@ header{
 h1{
     color: #000;
     font-size: 28px;
-    font-family: 'Bebas Neue';font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -28,4 +29,60 @@ a{
     font-family: 'Lobster', cursive;
     color: #000;
     text-shadow: 6px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue';
+}
+#gt3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 710px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border: 5px solid #a5b1c2;
+}
+
+#macangts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 660px;
+    padding-right: 50px;
+    padding-top: 10px;
+    border: 4px solid #a5b1c2;
+}
+
+#panamera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 570px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border: 4px solid #a5b1c2;
+}
+
+#taycan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 665px;
+    padding-right: 50px;
+    padding-top: 10px;
+    border: 5px solid #a5b1c2;
+}
+
+footer{
+    width:100%;
+    height: 80px;
+    background-color: #a5b1c2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    padding-left: 675px;
 }
