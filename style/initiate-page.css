@@ -7,6 +7,7 @@
 #background-video {
     margin: 0;
     height: 100%;
+    width: 100%;
   }
 
 .content{
@@ -16,15 +17,15 @@
     position: relative;
     margin: 0 0 0 0;
     background: rbg(0,0,0,7);
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
-    padding: 22vh 0px 0px;
+    padding: 5vh 0px 0px;
 
-    background-color: bisque;
+    background-color: #a5b1c2;
 }
 
 .content a{
-    position: absolute;
+    position: relative;
     letter-spacing: -1.5px;
     margin-left: -2px;
     margin-top: 50px;
@@ -35,6 +36,14 @@
     text-align: left;
     color: white;
     text-transform: uppercase;
-    background-color: aqua;
 }
 
+.content h1{
+    position: relative;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
