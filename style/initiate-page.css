@@ -16,11 +16,43 @@
     z-index: 10;
     width: 793.328px;
     height: 100%;
-    background-color: rgb(60, 255, 0);
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#content .title::before {
+    display: block;
+    font-size: 24px;
+    content: "Jackson Schirigatti && João Vitor";
+    margin-bottom: 10px;
 }
 
 #content .title {
-    margin-left: 125px;
+    margin-left: 50px;
+    letter-spacing: -1.5px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.arrow {
+    margin-left: 50px;
+}
+
+.icon-arrow {
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 50px;
+}
+
+.icon-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: 0.5s linear;
 }
