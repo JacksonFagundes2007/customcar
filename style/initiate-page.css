@@ -12,9 +12,6 @@
 }
 
 #content {
-    margin-left: 113.328px;
-    z-index: 10;
-    width: 793.328px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -22,19 +19,20 @@
 }
 
 #content .title::before {
+    margin-left: 5px;
     display: block;
-    font-size: 24px;
-    content: "Jackson Schirigatti && João Vitor";
+    font-size: 16px;
+    content: "Porsche";
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 #content .title {
-    margin-left: 50px;
+    margin-left: 20px;
     letter-spacing: -1.5px;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 40px;
     color: #ffffff;
-    font-size: 80px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -43,13 +41,13 @@
 }
 
 .arrow {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .icon-arrow {
-    border-radius: 15px;
     margin-top: 20px;
-    width: 50px;
+    width: 58px;
+    height: 66px;
 }
 
 .icon-arrow:hover {
