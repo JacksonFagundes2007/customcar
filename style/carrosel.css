@@ -21,7 +21,6 @@
 
 
 #buttons {
-    margin-top: 250px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -41,4 +40,28 @@
 }
 .front {
     transform: translate(100vw);
+}
+
+#name-car {
+    margin-top: 260px;
+    background-color: white;
+    align-items: center;
+}
+
+#open-car {
+    width: 95vw;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#button-car {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (min-widht: 900px) {
+
 }

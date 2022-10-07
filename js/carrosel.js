@@ -44,7 +44,13 @@ next.addEventListener('click', () => {
 })
 
 previous.addEventListener('click', () => {
-    if(cont == 2) {
+    if (cont == 3) {
+        quatro.classList = 'front'
+        tres.classList = 'mid'
+        cont--
+        console.log(cont);
+    }
+    else if(cont == 2) {
         tres.classList = 'front'
         dois.classList = 'mid'
         cont--
@@ -57,9 +63,11 @@ previous.addEventListener('click', () => {
         console.log(cont);
 
     } else if (cont == 0) {
-        um.classList = 'front'
-        dois.classList = 'front'
-        tres.classList = 'mid'
+        um.classList = 'back'
+        dois.classList = 'back'
+        tres.classList = 'back'
+        quatro.classList = 'mid'
+        cont++
         cont++
         cont++
         console.log(cont);
