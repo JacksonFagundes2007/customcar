@@ -12,18 +12,33 @@
     width: auto;
 }
 
-.carrosel-img {
+.carrosel img{
     display: inline;
     width: 100vw;
+    transition: 0.15s linear;
+    position: absolute;
 }
+
 
 #buttons {
+    margin-top: 250px;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
+
 }
 
-#buttons img{
-    width: 100vw;
-    align-items: center;
+#buttons img {
+    cursor: pointer;
+}
 
+.back {
+    transform: translate(-100vw);
+}
+.mid {
+    transform: translate(0);
+}
+.front {
+    transform: translate(100vw);
 }
