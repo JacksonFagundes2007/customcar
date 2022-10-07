@@ -57,4 +57,28 @@
         background-color: rgba(255, 255, 255, 0.356);
         transition: 0.5s linear;
     }
+    #buttons {
+        z-index: 10
+    }
+    #name-car {
+        margin-top: 0 !important;
+        background-color: #ffffff;
+    }
+    #models-car {
+        color: #ffffff !important;
+    }
+    #open-car {
+        width: 300px !important;
+        background-color: #ffffff77 !important;
+        border: 1px solid rgba(255, 255, 255, 0.678) !important;
+        padding: 20px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    #button-car {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
 }

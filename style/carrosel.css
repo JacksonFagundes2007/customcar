@@ -1,3 +1,4 @@
+
 #models {
     margin: 50px 0px 20px;
     padding: 0 20px 0 20px;
@@ -31,6 +32,7 @@
     width: 100vw;
     transition: 0.15s linear;
     position: absolute;
+    z-index: -1;
 }
 
 
@@ -58,7 +60,6 @@
 
 #name-car {
     margin-top: 260px;
-    background-color: white;
     align-items: center;
 }
 
@@ -71,17 +72,18 @@
     font-size: 16px;
 }
 
+#open-car:hover {
+    background-color: #ffffff;
+    transition: 1s linear ;
+    cursor: pointer;
+}
+
 #button-car {
     display: flex;
     justify-content: center;
-    cursor: pointer;
 }
 
 a{
     text-decoration: none;
     color: #000;
-}
-
-@media (min-widht: 900px) {
-
 }
