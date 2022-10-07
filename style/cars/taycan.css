@@ -44,8 +44,8 @@ body{
     overflow: hidden;
     position: absolute;
     top: 90%;
-    left: 50%;
-    transform: translate(-50%, -90%);
+    left: 10%;
+    transform: translate(-10%, -90%);
 }
 
 .navigation{
@@ -105,4 +105,60 @@ input{
 
 #slide4:checked ~ .s1{
     margin-left: -75%;
+}
+
+.card{
+    background: linear-gradient(72deg, #808e9b 1%, #1e272e 99%) ;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #d1ccc0;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li{
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+#black{
+    background-color: #000000;
+}
+
+#white{
+    background-color: #EFEFEF;
+}
+
+#matellicacherry{
+    background-color: #5E131E;
+}
+
+#neptuneblue{
+    background-color:#345E88;
 }
