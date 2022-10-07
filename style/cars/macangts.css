@@ -110,8 +110,7 @@ input{
 .card{
     background: linear-gradient(72deg, #808e9b 1%, #1e272e 99%) ;
     border-radius: 4px;
-    padding-top: 10px;
-    padding-right: 50px;
+    padding: 10px;
     display: flex;
     justify-content: right;
     align-items: right;
