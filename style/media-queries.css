@@ -1,4 +1,7 @@
 @media (min-width: 915px) {
+    .logo-jj {
+
+    }
     .topic {
         width: 100vw;
         height: 100vh;
@@ -30,21 +33,20 @@
     }
     
     #content .title {
-        margin-left: 50px;
-        letter-spacing: -1.5px;
-        text-decoration: none;
-        font-size: 60px;
-        color: #ffffff;
-        font-size: 80px;
-        font-weight: 700;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        text-transform: uppercase;
-        width: auto;
+        margin-left: 50px !important;
+        letter-spacing: -1.5px !important;
+        text-decoration: none !important;
+        font-size: 60px !important;
+        color: #ffffff !important;
+        font-size: 80px !important;
+        font-family: 'Roboto', sans-serif !important;
+        color: white !important;
+        text-transform: uppercase !important;
+        width: auto !important;
     }
     
     .arrow {
-        margin-left: 50px;
+        margin-left: 50px !important;
     }
     
     .icon-arrow {
@@ -57,28 +59,27 @@
         background-color: rgba(255, 255, 255, 0.356);
         transition: 0.5s linear;
     }
+
+}
+
+@media (min-width: 670px) {
     #buttons {
-        z-index: 10
+        justify-content: left !important;
+        margin-left: 20px;
     }
     #name-car {
         margin-top: 0 !important;
-        background-color: #ffffff;
+        
     }
     #models-car {
-        color: #ffffff !important;
+        filter: blur(100%) !important;
     }
     #open-car {
-        width: 300px !important;
-        background-color: #ffffff77 !important;
-        border: 1px solid rgba(255, 255, 255, 0.678) !important;
-        padding: 20px;
-        text-transform: uppercase;
-        font-size: 16px;
+        width: auto !important;
+        
     }
-    
     #button-car {
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
+        justify-content: left !important;
+        margin-left: 20px !important;
     }
 }

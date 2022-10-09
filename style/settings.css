@@ -11,7 +11,28 @@ body {
     padding: 0;
 }
 
+.logo-jj {
+  object-fit: cover;
+  width: 120px;
+  position: absolute;
+  z-index: 20;
+  filter: invert(100%);
+}
+
 /* Fonts */
 
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Infini */
+@import url(font/infini/infini-gras.otf);
+
+/* Root */
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-clear: #FF073A;
+  --color-dark: #02066F;
+  --color-super-dark: #00022E;
+
+}

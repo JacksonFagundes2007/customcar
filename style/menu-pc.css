@@ -1,0 +1,42 @@
+#menu-pc {
+    width: 100vw;
+    min-height: 8vh;
+    background-color: #00022E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#menu-pc ul {
+    box-sizing: border-box;
+    margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    
+    column-gap: 10vw;
+    
+    list-style: none;
+}
+
+.link-item {
+    color: white;
+    font-family: 'infini';
+    text-decoration: none;
+}
+
+.link-item:hover {
+    animation: rgb 1.5s linear infinite;
+}
+
+@keyframes rgb {
+    0% {
+        color: #14ffe9;
+    }
+    50% {
+        color: #b30000;
+    }
+    100% {
+        color:  #ffeb3b;
+    }
+}

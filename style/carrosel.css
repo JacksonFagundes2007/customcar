@@ -8,7 +8,7 @@
     color: #ffffff;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
+    color: var(--black);
     text-transform: uppercase;
     width: auto;
 }
@@ -22,7 +22,7 @@
     color: #ffffff;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
+    color: var(--color-super-dark);
     text-transform: uppercase;
     width: auto;
 }
@@ -61,20 +61,24 @@
 #name-car {
     margin-top: 260px;
     align-items: center;
+    
 }
 
 #open-car {
     width: 95vw;
-    background-color: transparent;
-    border: 1px solid rgba(128, 128, 128, 0.678);
+    background-color: #ffffff6e;
+    border: 1px solid rgba(128, 128, 128, 0.527);
     padding: 20px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    filter: blur(100%);
+    
 }
 
 #open-car:hover {
-    background-color: #ffffff;
-    transition: 1s linear ;
+    background-color: #ffffffbb;
+    transition: 0.2s linear ;
     cursor: pointer;
 }
 
@@ -83,7 +87,6 @@
     justify-content: center;
 }
 
-a{
+#open-car a{
     text-decoration: none;
-    color: #000;
 }
