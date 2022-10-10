@@ -1,0 +1,20 @@
+.cta-right {
+    display: inline-block;
+    height: 66px;
+    width: 58px;
+    transform: scale(1);
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  
+  .hexagon {
+    fill: transparent;
+    stroke: #fff;
+    transition: fill 0.3s ease-out;
+  }
+  
+  .icon {
+    fill: transparent;
+    stroke: white;
+    transition: stroke 0.3s ease-out,fill 0.3s ease-out
+  }

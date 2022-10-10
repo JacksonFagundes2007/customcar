@@ -22,13 +22,14 @@ if(largura < 900) {
   `
 } else {
   body.insertAdjacentHTML('afterbegin', `
-  <img class="logo-jj" src="images/page/jj-custom-car.png" alt="Logo"></img>
+  
   `)
     document.querySelector('#menu-pc').innerHTML = `
   
+    <img class="logo-jj" src="images/page/jj-custom-car.png" alt="Logo"></img>
     <ul>
-      <li><a class="link-item" href="index.html">Home</a></li>
-      <li><a class="link-item" href="#models">Models</a></li>
+    <li><a class="link-item" href="index.html">Home</a></li>
+    <li><a class="link-item" href="#models">Models</a></li>
       <li><a class="link-item" href="index.html">Budget</a></li>
       <li><a class="link-item" href="index.html">Contact</a></li>
       <li><a class="link-item" href="index.html">About us</a></li>

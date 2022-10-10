@@ -11,13 +11,6 @@ body {
     padding: 0;
 }
 
-.logo-jj {
-  object-fit: cover;
-  width: 120px;
-  position: absolute;
-  z-index: 20;
-  filter: invert(100%);
-}
 
 /* Fonts */
 

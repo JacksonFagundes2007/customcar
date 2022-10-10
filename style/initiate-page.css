@@ -28,7 +28,7 @@
 }
 
 #content .title {
-    margin-left: 20px;
+
     letter-spacing: -1.5px;
     text-decoration: none;
     font-size: 40px;
@@ -38,19 +38,4 @@
     color: white;
     text-transform: uppercase;
     width: auto;
-}
-
-.arrow {
-    margin-left: 20px;
-}
-
-.icon-arrow {
-    margin-top: 20px;
-    width: 58px;
-    height: 66px;
-}
-
-.icon-arrow:hover {
-    background-color: rgba(255, 255, 255, 0.356);
-    transition: 0.5s linear;
 }

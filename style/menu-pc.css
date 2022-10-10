@@ -1,7 +1,7 @@
 #menu-pc {
     width: 100vw;
     min-height: 8vh;
-    background-color: #00022E;
+    background-color: #181818;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +18,16 @@
     
     list-style: none;
 }
+
+.logo-jj {
+    object-fit: cover;
+    width: 120px;
+    position: absolute;
+    z-index: 20;
+    filter: invert(100%);
+    left: 113.328px;
+    opacity: 0;
+  }
 
 .link-item {
     color: white;
