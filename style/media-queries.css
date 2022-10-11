@@ -80,8 +80,7 @@
 
 @media (min-width: 670px) {
     #buttons {
-        justify-content: left !important;
-        margin-left: 20px;
+
     }
     #name-car {
         margin-top: 0 !important;
@@ -95,8 +94,8 @@
         
     }
     #button-car {
-        justify-content: left !important;
+        
         margin-left: 20px !important;
     }
-}
+} 
 

@@ -1,7 +1,12 @@
+#models, #models-car, #buttons, #name-car, #open-car, #button-car {
+    display: flex;
+    justify-content: flex-end;
+}
 
 #models {
-    margin: 50px 0px 20px;
-    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 0 20px;
     letter-spacing: -1.5px;
     text-decoration: none;
     font-size: 28px;
@@ -14,6 +19,7 @@
 }
 
 #models-car {
+    
     margin: 50px 0px 20px;
     padding: 0 20px 0 20px;
     letter-spacing: -1.5px;
@@ -38,8 +44,6 @@
 
 #buttons {
     width: 100vw;
-    display: flex;
-    justify-content: center;
     gap: 25px;
 
 }
@@ -60,7 +64,6 @@
 
 #name-car {
     margin-top: 260px;
-    align-items: center;
     
 }
 
@@ -80,11 +83,6 @@
     background-color: #ffffffbb;
     transition: 0.2s linear ;
     cursor: pointer;
-}
-
-#button-car {
-    display: flex;
-    justify-content: center;
 }
 
 #open-car a{
