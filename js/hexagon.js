@@ -14,3 +14,4 @@ for(let i = 0; i<3; i++) {
 }
 
 
+let previoubtn = document.querySelector('#previous').style.transform = 'scaleX(-1)'

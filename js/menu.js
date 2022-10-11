@@ -3,7 +3,7 @@ let largura = window.screen.width;
 let body = document.querySelector('body');
 let menu_pc = document.querySelector('#menu-pc');
 
-if(largura < 900) {
+if(largura < 700) {
   menu_pc.style.background = "transparent"
   document.querySelector('.wrapper-fake').classList = 'wrapper';
 
