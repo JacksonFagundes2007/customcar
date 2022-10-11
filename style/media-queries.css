@@ -1,25 +1,3 @@
-@media (min-width: 670px) {
-    #buttons {
-
-    }
-    #name-car {
-        margin-top: 0 !important;
-        
-    }
-    #models-car {
-        filter: blur(100%) !important;
-    }
-    #open-car {
-        width: auto !important;
-        
-    }
-    #button-car {
-        
-        margin-left: 20px !important;
-    }
-} 
-
-
 @media (min-width: 915px) {
 
 
@@ -34,8 +12,6 @@
     }
 
 }
-
-
 
 @media (min-width: 1212px) {
     .logo-jj {
@@ -52,18 +28,18 @@
 }
         
 @media (min-width: 1365px) {
-            .cta-right {
-                width: 60px;
-                height: auto;
-                margin-top: 28px;
-            }
-            #content .title{
-                font-size: 110px !important;
-                line-height: 0.9;
-                letter-spacing: -3.48px;
-            }
-            #content .title::before {
-                margin-left: -3.48px;
-                font-size: 34px !important;
-            }
-        }
+    .cta-right {
+        width: 60px;
+        height: auto;
+        margin-top: 28px;
+    }
+    #content .title{
+        font-size: 110px !important;
+        line-height: 0.9;
+        letter-spacing: -3.48px;
+    }
+    #content .title::before {
+        margin-left: -3.48px;
+        font-size: 34px !important;
+    }
+}

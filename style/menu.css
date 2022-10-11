@@ -9,9 +9,10 @@
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-    background: #000;
+    background: var(--color-black);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
+    z-index: 10;
   }
   #active:checked ~ .wrapper{
     clip-path: circle(75%);
@@ -30,11 +31,12 @@
     font-size: 20px;
     color: #fff;
     cursor: pointer;
-    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
-    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: #000;
+  /* background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    background: var(--color-black);
     transition: all 0.3s ease-in-out;
+    z-index: 11;
   }
   #active:checked ~ .menu-btn{
     color: #fff;
@@ -61,7 +63,7 @@
     padding: 5px 30px;
     color: #fff;
     border-radius: 50px;
-    background: #000;
+    background: var(--color-black);
     position: relative;
     line-height: 50px;
     transition: all 0.3s ease;

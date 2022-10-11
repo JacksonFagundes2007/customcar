@@ -1,6 +1,10 @@
 #models, #models-car, #buttons, #name-car, #open-car, #button-car {
     display: flex;
     justify-content: flex-end;
+
+}
+#content-carrosel {
+    margin-right: 8.3%;
 }
 
 #models {
@@ -16,6 +20,7 @@
     color: var(--black);
     text-transform: uppercase;
     width: auto;
+    
 }
 
 #models-car {

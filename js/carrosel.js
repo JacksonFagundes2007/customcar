@@ -94,4 +94,4 @@ previous.addEventListener('click', () => {
         console.log(cont);
 
     }
-})
+});
