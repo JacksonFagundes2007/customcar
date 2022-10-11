@@ -7,8 +7,8 @@ let miamiblue = document.querySelector('#miamiblue');
 black.addEventListener('click', ()=>{
     document.getElementById('imageUm').src = "../images/cars/Macan GTS 2023/black/iris.jpg";
     document.getElementById('imageDois').src = "../images/cars/Macan GTS 2023/black/iris (2).jpg";
-    document.getElementById('imageTres').src = "../images/cars/Macan GTS 2023/black/iris (1).jpg";
-    document.getElementById('imageQuatro').src = "../images/cars/Macan GTS 2023/black/iris (3).jpg";
+    document.getElementById('imageTres').src = "../images/cars/Macan GTS 2023/black/iris (3).jpg";
+    document.getElementById('imageQuatro').src = "../images/cars/Macan GTS 2023/black/iris (1).jpg";
 })
 
 white.addEventListener('click', ()=>{

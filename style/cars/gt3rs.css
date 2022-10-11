@@ -124,7 +124,7 @@ p{
     font-size: 25px;
 }
 
-ul{
+.ul-card{
     list-style: none;
     padding: 24px;
     display: flex;
@@ -134,7 +134,7 @@ ul{
     gap: 20px;
 }
 
-ul li{
+.ul-card li{
     width: 64px;
     height: 64px;
     background-color: red;
@@ -142,7 +142,7 @@ ul li{
     cursor: pointer;
 }
 
-ul li:hover{
+.ul-card li:hover{
     transform: scale(1.1);
 }
 
