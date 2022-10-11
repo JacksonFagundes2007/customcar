@@ -5,11 +5,16 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 body {
     overflow-x: hidden;
     box-sizing: border-box;
     padding: 0;
     transition: linear 1s;
+    
 }
 
 a[ id= "scroll-btn" ]:target ~ #main article.panel {
