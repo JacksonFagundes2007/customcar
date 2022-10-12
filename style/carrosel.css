@@ -9,10 +9,9 @@
     letter-spacing: -1.5px;
     text-decoration: none;
     font-size: 34px;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    color: var(--black);
     text-transform: uppercase;
 
     
@@ -35,6 +34,7 @@
     transition: 0.15s linear;
     position: absolute;
     z-index: -1;
+    filter: brightness(10%);
 }
 
 
@@ -50,18 +50,9 @@
     
 }
 
-.back {
-    transform: translate(-100vw);
-}
-.mid {
-    transform: translate(0);
-}
-.front {
-    transform: translate(100vw);
-}
 
 #name-car {
-    margin-top: 355px;
+    
 }
 
 #open-car {
@@ -78,10 +69,20 @@
 
 #open-car:hover {
     background-color: #ffffffbb;
-    transition: 0.2s linear ;
     cursor: pointer;
+    transition: fill 0.3s ease-out
 }
 
 #open-car a{
     text-decoration: none;
+}
+
+.back {
+    transform: translate(-100vw);
+}
+.mid {
+    transform: translate(0);
+}
+.front {
+    transform: translate(100vw);
 }

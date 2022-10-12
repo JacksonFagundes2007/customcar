@@ -1,19 +1,19 @@
 .cta-right {
     display: inline-block;
-    height: 66px;
-    width: 58px;
+    height: 50px;
+    width: 50px;
     transform: scale(1);
     margin-top: 20px;
     margin-left: 2px;
   }
   
-  .hexagon {
+  .hexagon, .hexagon2 {
     fill: transparent;
     stroke: var(--color-white);
     transition: fill 0.3s ease-out;
   }
   
-  .icon {
+  .icon, .icon2 {
     fill: transparent;
     stroke: white;
     transition: stroke 0.3s ease-out,fill 0.3s ease-out
