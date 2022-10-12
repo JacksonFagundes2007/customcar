@@ -1,41 +1,32 @@
-#models, #models-car, #buttons, #name-car, #open-car, #button-car {
-    display: flex;
-    justify-content: flex-end;
-
-}
 #content-carrosel {
-    margin-right: 8.3%;
+    margin-left: 8.3%;
+    padding-top: 203px;
 }
 
 #models {
+    
     display: flex;
-    justify-content: flex-end;
-    padding: 20px 20px 0 20px;
     letter-spacing: -1.5px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 34px;
     color: #ffffff;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: var(--black);
     text-transform: uppercase;
-    width: auto;
+
     
 }
 
 #models-car {
-    
-    margin: 50px 0px 20px;
-    padding: 0 20px 0 20px;
     letter-spacing: -1.5px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 116px;
     color: #ffffff;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    color: var(--color-super-dark);
     text-transform: uppercase;
-    width: auto;
+
 }
 
 .carrosel img{
@@ -48,13 +39,15 @@
 
 
 #buttons {
-    width: 100vw;
-    gap: 25px;
-
+    display: flex;
+    width: 125.990px;
+    height: 50px;
+    gap: 26px;
 }
 
 #buttons img {
     cursor: pointer;
+    
 }
 
 .back {
@@ -68,8 +61,7 @@
 }
 
 #name-car {
-    margin-top: 260px;
-    
+    margin-top: 355px;
 }
 
 #open-car {
