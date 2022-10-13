@@ -26,12 +26,15 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin: 96.280px 0 96.280px 0;
+    margin-left: -3.48px;
 
 }
 
 .carrosel img{
+    object-fit: cover;
     display: inline;
     width: 100vw;
+    height: 100%;
     transition: 0.15s linear;
     position: absolute;
     z-index: -1;
