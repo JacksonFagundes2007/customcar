@@ -30,6 +30,11 @@
 
 }
 
+#content-carrosel #content {
+    margin-left: 0;
+    width: 100% ;
+}
+
 .carrosel img{
     object-fit: cover;
     display: inline;
