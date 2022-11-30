@@ -28,12 +28,12 @@ if(largura < 700) {
 } else {
     // importa o menu para pc
     document.querySelector('#menu-pc').innerHTML = `
-    <img class="logo-jj" src="../images/page/jj-custom-car.png" alt="Logo"></img>
+    <img class="logo-jj" src="../../images/page/jj-custom-car.png" alt="Logo"></img>
     <ul>
-    <li><a class="link-item" href="../index.html">Home</a></li>
-      <li><a class="link-item" href="pages-site/budget.html">Budget</a></li>
-      <li><a class="link-item" href="index.html">Contact</a></li>
-      <li><a class="link-item" href="../pages-site/aboutus.html">About us</a></li>
+    <li><a class="link-item" href="../../index.html">Home</a></li>
+      <li><a class="link-item" href="../../pages-site/budget.html">Budget</a></li>
+      <li><a class="link-item" href="../../contact.html">Contact</a></li>
+      <li><a class="link-item" href="../../pages-site/aboutus.html">About us</a></li>
     </ul>
     `
 }

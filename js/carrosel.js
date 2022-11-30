@@ -14,7 +14,7 @@ if(window.onload = true) {
     tres.classList = 'front'
     quatro.classList = 'front'
     p.innerHTML = 'panamera 4 e-hybrid'
-    link.href = 'pages/panamera.html'
+    link.href = 'pages/porsche/panamera.html'
 }
 
 let cont = 0;
@@ -25,14 +25,14 @@ next.addEventListener('click', () => {
         dois.classList = 'mid'
         cont++
         p.innerHTML = 'macan gts'
-        link.href = 'pages/macangts.html'
+        link.href = 'pages/porsche/macangts.html'
         console.log(cont);
     } else if (cont == 1) {
         dois.classList = 'back'
         tres.classList = 'mid'
         cont++
         p.innerHTML = 'gt3 rs'
-        link.href = 'pages/gt3rs.html'
+        link.href = 'pages/porsche/gt3rs.html'
         console.log(cont);
 
     } else if (cont == 2) {
@@ -40,7 +40,7 @@ next.addEventListener('click', () => {
         quatro.classList = 'mid'
         cont++
         p.innerHTML = 'taycan 4s'
-        link.href = 'pages/taycan4s.html'
+        link.href = 'pages/porsche/taycan4s.html'
         console.log(cont);
     } else if (cont == 3) {
         um.classList = 'mid'
@@ -51,7 +51,7 @@ next.addEventListener('click', () => {
         cont--
         cont--
         p.innerHTML = 'panamera 4 e-hybrid'
-        link.href = 'pages/panamera.html'
+        link.href = 'pages/porsche/panamera.html'
         console.log(cont);
     }
 })
@@ -62,7 +62,7 @@ previous.addEventListener('click', () => {
         tres.classList = 'mid'
         cont--
         p.innerHTML = 'gt3 rs'
-        link.href = 'pages/gt3rs.html'
+        link.href = 'pages/porsche/gt3rs.html'
         console.log(cont);
     }
     else if(cont == 2) {
@@ -70,7 +70,7 @@ previous.addEventListener('click', () => {
         dois.classList = 'mid'
         cont--
         p.innerHTML = 'macan gts'
-        link.href = 'pages/macangts.html'
+        link.href = 'pages/porsche/macangts.html'
         console.log(cont);
 
     } else if (cont == 1) {
@@ -78,7 +78,7 @@ previous.addEventListener('click', () => {
         um.classList = 'mid'
         cont--
         p.innerHTML = 'panamera 4 e-hybrid'
-        link.href = 'pages/panamera.html'
+        link.href = 'pages/porsche/panamera.html'
         console.log(cont);
 
     } else if (cont == 0) {
@@ -90,7 +90,7 @@ previous.addEventListener('click', () => {
         cont++
         cont++
         p.innerHTML = 'taycan 4s'
-        link.href = 'pages/taycan4s.html'
+        link.href = 'pages/porsche/taycan4s.html'
         console.log(cont);
 
     }
