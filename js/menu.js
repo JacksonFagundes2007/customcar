@@ -34,9 +34,9 @@ if(largura < 700) {
     <ul>
     <li><a class="link-item" href="index.html">Home</a></li>
     <li><a class="link-item" href="#models">Models</a></li>
-      <li><a class="link-item" href="index.html">Budget</a></li>
+      <li><a class="link-item" href="pages-site/budget.html">Budget</a></li>
       <li><a class="link-item" href="index.html">Contact</a></li>
-      <li><a class="link-item" href="index.html">About us</a></li>
+      <li><a class="link-item" href="pages-site/aboutus.html">About us</a></li>
     </ul>
     `
 }
