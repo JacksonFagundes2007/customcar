@@ -1,0 +1,17 @@
+.icon-brand {
+    width: 500px;
+}
+
+.topic-white {
+    color: black !important;
+    letter-spacing: -1.5px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: -3.48px;
+}
+

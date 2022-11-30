@@ -4,107 +4,12 @@
     box-sizing: border-box;
 }
 
-header{
-    width:100%;
-    height: 80px;
-    background-color: #a5b1c2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-h1{
-    color: #000;
-    font-size: 28px;
-    font-family: 'Bebas Neue';
-    font-size: 30px;
-}
-
-a{ 
-    text-decoration: none;
-    font-size: 22px;
-    font-family: 'Lobster', cursive;
-    color: #000;
-    text-shadow: 6px;
-}
-
 body{
     margin:0;
     padding:0;
     height: 100vh;
     width: 100vw;
     background: linear-gradient(72deg, #808e9b 1%, #1e272e 99%) ;
-}
-
-.content{
-    height: 645px;
-    width: 1050px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: absolute;
-    top: 90%;
-    left: 10%;
-    transform: translate(-10%, -90%);
-}
-
-.navigation{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-}
-
-.bar{
-    width: 70px;
-    height: 17px;
-    border: 2px solid #000;
-    margin: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .6s;
-}
-
-.bar:hover{
-    background-color: #000;
-}
-
-input{
-    display:none;
-}
-
-
-.slides{
-    display: flex;
-    width: 400%;
-    height: 100%;
-}
-
-.slide{
-    width: 25%;
-    transition: .6s;
-}
-
-.slide img{
-    width: 100%;
-    height: 100%;
-}
-
-#slide1:checked ~ .s1{
-    margin-left:0;
-}
-
-#slide2:checked ~ .s1{
-    margin-left: -25%;
-}
-
-#slide3:checked ~ .s1{
-    margin-left: -50%;
-}
-
-#slide4:checked ~ .s1{
-    margin-left: -75%;
 }
 
 .card{
@@ -114,36 +19,6 @@ input{
     display: flex;
     justify-content: right;
     align-items: right;
-}
-
-p{
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: #d1ccc0;
-    font-size: 25px;
-}
-
-ul{
-    list-style: none;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-ul li{
-    width: 64px;
-    height: 64px;
-    background-color: red;
-    border-radius: 20%;
-    cursor: pointer;
-}
-
-ul li:hover{
-    transform: scale(1.1);
 }
 
 #black{
