@@ -1,0 +1,82 @@
+body {
+    overflow-y: hidden;
+    
+}
+
+
+#content-carrosel {
+    padding: 0;
+}
+
+.name-car-div {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    background: #181818;
+}
+.carrosel {
+    width: 100vw;
+    
+}
+
+.carrosel img{
+    object-fit: cover;
+    width: 65vw;
+    height: 85vh;
+    transition: 0.15s linear;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+#buttons {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+
+    gap: 5%;
+}
+
+    
+.back {
+    transform: translate(-100vw);
+}
+.mid {
+    transform: translate(0);
+}
+.front {
+    transform: translate(100vw);
+}
+
+
+#menu-lateral-car {
+    padding-top: 40px;
+    position: absolute;
+    top:15vh;
+    right: 0;
+    width: 35%;
+    height: 100vh;
+    background: rgb(192,192,192);
+    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(232,232,232,1) 64%, rgba(255,255,255,1) 100%);
+
+} 
+
+.lista-menu{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.lista-menu li {
+    border: 1px solid rgb(216, 216, 216);
+    padding: 0 4%;
+
+}
