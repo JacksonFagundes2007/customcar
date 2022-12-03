@@ -3,11 +3,7 @@ body {
     
 }
 
-
-#content-carrosel {
-    padding: 0;
-}
-
+/* tittle */
 .name-car-div {
     height: 15vh;
     width: 100vw;
@@ -19,9 +15,11 @@ body {
     color: #ffffff;
     background: #181818;
 }
+
+
+/* carrosel */
 .carrosel {
-    width: 100vw;
-    
+    width: 100vw; 
 }
 
 .carrosel img{
@@ -31,39 +29,67 @@ body {
     transition: 0.15s linear;
     bottom: 0;
     z-index: -1;
+    position: absolute;
+}
+
+#content-carrosel {
+    padding: 0;
 }
 
 
+/* buttons */
 #buttons {
     position: absolute;
     bottom: 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     width: 65vw;
+    cursor: pointer;
 
-    gap: 5%;
+    gap: 10%;
 }
 
-    
+.cta-right {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    transform: scale(1);
+}
+  
+  .hexagon, .hexagon2 {
+    fill: #ffffff;
+    stroke: var(--color-black);
+    transition: fill 0.3s ease-out;
+}
+  
+  .icon, .icon2 {
+    fill: transparent;
+    stroke:#000000;
+    transition: stroke 0.3s ease-out,fill 0.3s ease-out;
+}
+
+
+/* move image */
 .back {
-    transform: translate(-100vw);
+    transform: translate(-65vw);
 }
 .mid {
     transform: translate(0);
 }
 .front {
-    transform: translate(100vw);
+    transform: translate(65vw);
 }
 
 
+/* color side menu */
 #menu-lateral-car {
     padding-top: 40px;
     position: absolute;
     top:15vh;
     right: 0;
     width: 35%;
-    height: 100vh;
+    height: 85vh;
     background: rgb(192,192,192);
     background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(232,232,232,1) 64%, rgba(255,255,255,1) 100%);
 
