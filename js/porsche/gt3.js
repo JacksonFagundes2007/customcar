@@ -1,3 +1,5 @@
+
+// color select //
 let black = document.querySelector('#black');
 let white = document.querySelector('#white');
 let red = document.querySelector('#red');
