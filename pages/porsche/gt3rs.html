@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
-<!-- styles -->
+    <!-- styles -->
     <link rel="stylesheet" href="../../style/settings.css">
-    <link rel="stylesheet" href="../../style/cars/gt3rs.css">
+    
     <link rel="stylesheet" href="../../style/menu.css">
     <link rel="stylesheet" href="../../style/menu-pc.css">
     <link rel="stylesheet" href="../../style/cars/porsche/carrosel-cars.css">
-<!-- js -->
+    <link rel="stylesheet" href="../../style/cars/porsche/gt3rs.css">
+    <!-- js -->
+    <script src="../../js/porsche/gt3.js" defer></script>
     <script src="../../js/menuCars.js" defer></script>
-    <script src="../../js/gt3.js" defer></script>
     <script src="../../js/porsche/carrosel-cars.js" defer></script>
-
+    <script src="../../js/hexagon.js" defer></script>
+    
     <title>GT3 RS 2023</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- menu -->
- <div class="wrapper-fake"></div>
- <div id="menu-pc"></div>
+    <div class="wrapper-fake"></div>
+    <div id="menu-pc"></div>
 
-        <!-- carrosel-->
-        <section class="topic ">
+    <!-- carrosel-->
+    <section class="topic ">
             <div class="name-car-div">
-                <p class="name-car">Aqui fica nome do carro</p>
+              <p class="name-car">GT3 RS</p>
             </div>
             <div class="carrosel">
-              <img class="img-car" id="um"  src="../../images/cars/GT3 RS 2023/black/iris (4).jpg" alt="">
-              <img class="img-car" id="dois"  src="../../images/cars/GT3 RS 2023/black/iris (1).jpg" alt="">
-              <img class="img-car" id="tres"  src="../../images/cars/GT3 RS 2023/black/iris (2).jpg" alt="">
-              <img class="img-car" id="quatro"  src="../../images/cars/GT3 RS 2023/black/iris.jpg" alt="">
+              <img id="um"  src="../../images/cars/GT3 RS 2023/black/iris (4).jpg" alt="">
+              <img id="dois"  src="../../images/cars/GT3 RS 2023/black/iris (1).jpg" alt="">
+              <img id="tres"  src="../../images/cars/GT3 RS 2023/black/iris (2).jpg" alt="">
+              <img id="quatro"  src="../../images/cars/GT3 RS 2023/black/iris.jpg" alt="">
             </div>
+
             <div id="content-carrosel">
-      
+
         <!-- buttons -->
               <div id="buttons">
                 <a id="previous" class="cta-right btn-white" target="_self">
@@ -61,13 +64,23 @@
             
         <!-- colors select -->
             <div id="menu-lateral-car">
-                <p class="name-car">Aqui fica nome do carro</p>
+                <p class="name-car">GT3 RS</p>
                 <ul class="lista-menu">
-                    <li>Cor</li>
-                    <li>Rodas</li>
+                    <li class="opc-on">Color</li>
+                    <li class="opc-off">Wheels</li>
+                    <li class="opc-off">Spoiler</li>
+                    <li class="opc-off">Front</li>
+                    <li class="opc-off">F. Fender</li>
+                    <li class="opc-off">Hood</li>
+                    <li class="opc-off">Rearlights</li>
                 </ul>
-                <button>Salvar modificação</button>
+                <div id="cores-car">
+                  
+                </div>
+                <!-- Text save para animação -->
+                <button id="save-custom"><p class="text-save">Salvar modificação</p></button>
             </div>
         </section>
+
 </body>
 </html>

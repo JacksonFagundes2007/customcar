@@ -8,6 +8,9 @@
         font-size: 80px !important;
     }
 
+    .lista-menu {
+        flex-wrap: wrap !important;
+    }
 }
 
 @media (min-width: 1212px) {
