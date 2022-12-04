@@ -8,17 +8,79 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
     
 <!-- styles -->
-    <link rel="stylesheet" href="../../style/cars/macangts.css">
+    <link rel="stylesheet" href="../../style/settings.css">
     <link rel="stylesheet" href="../../style/menu.css">
     <link rel="stylesheet" href="../../style/menu-pc.css">
+    <link rel="stylesheet" href="../../style/cars/porsche/carrosel-cars.css">
+    <link rel="stylesheet" href="../../style/cars/porsche/macangts.css">
 <!-- js -->
+    <script src="../../js//porsche/macangts.js" defer></script>
     <script src="../../js/menuCars.js" defer></script>
-    <script src="../../js/macangts.js" defer></script>
+    <script src="../../js/porsche/carrosel-cars.js" defer></script>
+    <script src="../../js/hexagon.js" defer></script>
 
     <title>MACAN GTS 2023</title>
 </head>
 <body>
-    <div class="wrapper-fake"></div>
-    <div id="menu-pc"></div>
+     <!-- menu -->
+     <div class="wrapper-fake"></div>
+     <div id="menu-pc"></div>
+ 
+     <!-- carrosel-->
+     <section class="topic ">
+             <div class="name-car-div">
+               <p class="name-car">MACAN GTS 2023</p>
+             </div>
+             <div class="carrosel">
+               <img id="um"  src="../../images/cars/Macan GTS 2023/black/iris.jpg" alt="">
+               <img id="dois"  src="../../images/cars/Macan GTS 2023/black/iris (2).jpg" alt="">
+               <img id="tres"  src="../../images/cars/Macan GTS 2023/black/iris (1).jpg" alt="">
+               <img id="quatro"  src="../../images/cars/Macan GTS 2023/black/iris (3).jpg" alt="">
+             </div>
+ 
+             <div id="content-carrosel">
+ 
+         <!-- buttons -->
+               <div id="buttons">
+                 <a id="previous" class="cta-right btn-white" target="_self">
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                     <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                       <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                       <path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path>
+                     </g>
+                   </svg>
+                 </a>
+       
+                 <a id="next" class="cta-right btn-white" target="_self">
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                     <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                       <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                       <path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+             </div>
+             
+         <!-- colors select -->
+             <div id="menu-lateral-car">
+                 <p class="name-car">MACAN GTS 2023</p>
+                 <ul class="lista-menu">
+                     <li class="opc-on">Color</li>
+                     <li class="opc-off">Wheels</li>
+                     <li class="opc-off">Spoiler</li>
+                     <li class="opc-off">Front</li>
+                     <li class="opc-off">F. Fender</li>
+                     <li class="opc-off">Hood</li>
+                     <li class="opc-off">Rearlights</li>
+                 </ul>
+                 <div id="cores-car">
+                   
+                 </div>
+                 <!-- Text save para animação -->
+                 <button id="save-custom"><p class="text-save">Salvar modificação</p></button>
+             </div>
+         </section>
+ 
 </body>
 </html>
