@@ -1,0 +1,42 @@
+.forms {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-black);
+    background: rgb(192,192,192);
+    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(232,232,232,1) 64%, rgba(255,255,255,1) 100%);
+}
+
+.forms input {
+    margin-bottom: 30px;
+    border: 1px solid gray;
+}
+
+.form-item {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+#brand-select{
+    margin-bottom: 30px;
+    width: 164.6px;
+}
+
+.form-submit{
+    display: flex;
+    margin-bottom: 3px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;    
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 3px 25px;
+    font-weight: 700;
+
+}

@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/page/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/page/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/page/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/page/favicon/site.webmanifest">
+    <!-- style -->
+    <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/menu-pc.css">
+    <link rel="stylesheet" href="../style/settings.css">
+    <link rel="stylesheet" href="../style/budget.css">
+    <!-- script -->
+    <script src="../js/menuCars.js" defer></script>
+    <script src="../js/budget.js" defer></script>
+
+    
     <title>Budget</title>
 </head>
 <body>
-    <h1>Budget :)</h1>
+    <div class="wrapper-fake"></div>
+    <div id="menu-pc"></div>
+
+
+    <section class="forms">
+        <form id="budget-div">
+            <label class="form-item" for="fname">First name:</label>
+            <input class="form-item" type="text" id="fname" name="fname">
+            <label class="form-item" for="lname">Last name:</label>
+            <input class="form-item" type="text" id="lname" name="lname">
+            <label class="form-item" for="lname">E-mail:</label>
+            <input class="form-item" type="text" id="lname" name="lname">
+            <label class="form-item" for="lname">Name Car:</label>
+
+            <select id="brand-select" name="viagem">
+            </select>
+            <input class="form-submit" type="submit" value="Submit">
+        </form>
+    </section>
 </body>
 </html>
