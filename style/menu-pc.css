@@ -8,6 +8,11 @@
     position: absolute;
 }
 
+/* Animação */
+.menu-off {
+    margin-right: 100vw;
+}
+
 #menu-pc ul {
     box-sizing: border-box;
     margin: 0 50px 0 50px;
