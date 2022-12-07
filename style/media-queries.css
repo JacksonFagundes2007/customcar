@@ -1,4 +1,12 @@
+@media (max-width: 1270px) {
+    .logo-jj {
+        opacity: 0;
+        z-index: -100;
+        margin-top: 100px;
+    }
+}
 @media (min-width: 915px) {
+
     #content .title::before {
         font-size: 24px ;
     }

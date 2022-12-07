@@ -10,6 +10,7 @@
     <link rel="manifest" href="/images/page/favicon/site.webmanifest">
     <!-- style -->
     <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/media-queries.css">
     <link rel="stylesheet" href="../style/menu-pc.css">
     <link rel="stylesheet" href="../style/settings.css">
     <link rel="stylesheet" href="../style/budget.css">
@@ -27,16 +28,21 @@
 
     <section class="forms">
         <form id="budget-div">
-            <label class="form-item" for="fname">First name:</label>
-            <input class="form-item" type="text" id="fname" name="fname">
+            <label class="form-item" for="fname" >First name:</label>
+            <input class="form-item" type="text" id="fname" name="fname" placeholder="Cleitin">
             <label class="form-item" for="lname">Last name:</label>
-            <input class="form-item" type="text" id="lname" name="lname">
+            <input class="form-item" type="text" id="lname" name="lname" placeholder="Da Silva">
             <label class="form-item" for="lname">E-mail:</label>
-            <input class="form-item" type="text" id="lname" name="lname">
+            <input class="form-item" type="text" id="lname" name="lname" placeholder="cleitindsilva@gmail.com">
             <label class="form-item" for="lname">Name Car:</label>
-
-            <select id="brand-select" name="viagem">
+            <select id="brand-select">
+                <option value="0">Select brand</option>
             </select>
+
+            <label class="form-item" for="lname">Model car:</label>
+            <select id="model-select">
+            </select>
+
             <input class="form-submit" type="submit" value="Submit">
         </form>
     </section>
